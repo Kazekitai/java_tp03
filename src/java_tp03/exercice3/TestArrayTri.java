@@ -39,6 +39,11 @@ public class TestArrayTri {
 		
 	}
 	
+	/**
+	 * method to sort array (ascendant) using ArrayList
+	 * @param array
+	 * @return
+	 */
 	public static ArrayList<Integer> sortArrayAscArrayList(int[] array) {
 		int size = array.length;
 		ArrayList<Integer> sortedArray = new ArrayList<Integer>();

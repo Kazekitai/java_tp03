@@ -6,7 +6,7 @@ public class programme {
 
 	public static void main(String[] args) {
 		int[] array = new int[0];
-		/* Choix de l'option */
+		/* Programme pour créer un tableau */
 		Scanner scanner = new Scanner(System.in);
 		int option = 0;
 		while(option != 3) {
@@ -35,6 +35,12 @@ public class programme {
 		}
 	}
 
+	/**
+	 * method to add number into array
+	 * @param elt
+	 * @param array
+	 * @return
+	 */
 	public static int[] addNumberToArray(int elt, int[] array) {
 		int[] newTab = new int[array.length+1];
 		int j=0;
@@ -47,6 +53,10 @@ public class programme {
 
 	}
 	
+	/**
+	 * method to display array
+	 * @param array
+	 */
 	public static void displayArray(int[] array) {
 		int size = array.length;
 		for(int i=0;i<size;i++){
